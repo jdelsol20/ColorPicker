@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 // Write your Color component here
-const Color = ({color, setSelectedColor}) => {
+const Color = ({color, setSelectedColor,}) => {
   return (
     <div 
       className={color} 
